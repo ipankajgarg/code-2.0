@@ -1,0 +1,171 @@
+body{
+    margin : 20px 0px;
+} 
+#header .logo img{
+    width: 18%;
+    margin-top: -5px;
+}
+#header .logo span{
+    font-size: 24px;
+    font-weight: bold;
+}
+#header .foruser{
+    margin-left: 45px;
+    margin-top: 5px;
+}
+#header .foruser ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    color: black;
+    
+}
+#header .foruser ul li a{
+    color: black;
+    text-transform: capitalize;
+    
+    color: #666;
+        font-size: 16px;
+}
+/*header*/
+#content .myimage{
+    background-image: url(../images/service-1.jpg);
+
+    height: 468px;
+/*    width:980px;*/
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#content{
+    margin: 20px 0px;
+}
+#content .shadow:before{
+            content: "";
+            background-color: rgba(0,0,0,0.6);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            display: block;
+    
+        } 
+#content .container-fluid{
+    position: relative;
+} 
+#content .heading h1,h2{
+     position: absolute;
+/*    text-align: center;*/
+    text-transform: capitalize;
+   font-size: 52px;
+    color: #fff;
+    font-weight: 700;
+    left: 33%;
+}
+
+#content .heading h2{
+    font-size: 25px;
+    top:30%;
+    left: 28%;
+    font-weight: 500;
+}
+
+#content .heading{
+margin-top: 50px;
+}
+#content .box .search{
+    position: absolute;
+    bottom: 92px;
+    left: 43%;
+    width: 31%;
+        font-size: 20px;
+    
+    padding-left: 23px;
+}
+#content .box .chat{
+    position: absolute;
+    bottom: 92px;
+    left: 30%;
+    font-size: 16px;
+    width: 20%;
+    height: 50px;
+    width: 10%;
+}
+#content .box .search{
+        height: 50px;
+}
+#content .box .facility{
+         position: absolute; 
+    bottom: 69px;
+    left: 44%;
+    color: white;
+}
+#content .box .people{
+         position: absolute; 
+    bottom: 69px;
+    left: 31%;
+    color: white;
+}
+#content .box .know{
+        border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 9px;
+}
+#content .dropdown{
+    position: absolute;
+    bottom: 91px;
+    left: 30%;
+}
+#content .btn{
+    padding: 14px 35px;
+}
+#content .user-service{
+    text-align: center;
+}
+#content .user-service ul li{
+    display: inline-block;
+    width: 16%;
+    cursor: pointer;
+}
+
+#content  ul {
+    padding: 0px;
+    margin: 0px;
+}
+#content .user-service ul li:nth-child(4) .image img{
+    width: 28%;
+}
+#content .user-service ul li:nth-child(3) .image img{
+    width: 28%;
+}
+#content .user-service ul li:nth-child(5) .image img{
+    width: 34%;
+}
+
+#content .user-service .image img {
+    width: 24%;
+}
+#content .image-shift{
+    width: 85%;
+}
+#content .image-shift img{
+    width: 100%;
+}
+#content .shifting ul{
+    text-align: center;
+}
+#content .shifting .head{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#content .shifting ul li{
+    display: inline-block;
+    width: 23%;
+}
+#content .shifting{
+    margin: 30px 0px;
+}
+#myModal2 h4{
+    font-size: 34px;
+}

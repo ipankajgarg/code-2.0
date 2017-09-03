@@ -1,0 +1,49 @@
+body{
+    margin : 20px 0px;
+} 
+#header .logo img{
+    width: 18%;
+    margin-top: -5px;
+}
+.gif{
+    position: absolute;
+    top: 27%;
+    left: 30%;
+}
+#header .logo span{
+    font-size: 24px;
+    font-weight: bold;
+}
+#header .foruser{
+    margin-left: 45px;
+    margin-top: 5px;
+}
+#header .foruser ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    color: black;
+    
+}
+#header .foruser ul li a{
+    color: black;
+    text-transform: capitalize;
+    
+    color: #666;
+}
+#content .listdata {
+    margin-right: -70px;
+}
+#content .listdata ul li{
+    display: inline-block;
+    width: 50%;
+    margin: 30px 0px;
+}
+#content .listdata .image{
+    width: 72%;
+}
+#content .listdata .image img{
+    width: 100%;
+}
+#content .person{
+    border: 1px solid lightgrey;
+}
